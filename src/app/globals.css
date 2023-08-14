@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage{
+    background:url(../app/img/backgroundd.svg);
+    width: 100%;
+    height: 94vh;
+    /* color: rgba(255, 99, 71, 0.356); */
+}
+
+
+
+/* responsive  */
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 640px) {
+    .sideSection{
+        display: none;
+    }
+    .customhambaurger{
+        visibility: visible!important;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 641px) and (max-width: 768px) {
+    .sideSection{
+        display: none;
+    }
+    .customhambaurger{
+        visibility: visible!important;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sideSection{
+        display: none;
+    }
+    .customhambaurger{
+        visibility: visible!important;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1281px) {
+    
+}

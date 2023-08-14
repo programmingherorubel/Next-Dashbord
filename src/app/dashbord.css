@@ -1,0 +1,11 @@
+.dashbordContainer{
+    display: flex;
+    
+}
+.sidebar{
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 #E2ECF9;
+    height: 100vh;
+}
+
